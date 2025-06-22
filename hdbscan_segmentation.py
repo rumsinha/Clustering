@@ -14,7 +14,7 @@ import matplotlib.cm as cm
 warnings.filterwarnings('ignore')
 
 # Load and examine the data
-df = pd.read_csv('/Users/rumasinha/Documents/datasets/Mall_Customers.csv')
+df = pd.read_csv('Mall_Customers.csv')
 
 print("Original Data Head:")
 print(df.head())
